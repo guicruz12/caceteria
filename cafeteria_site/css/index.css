@@ -1,0 +1,29 @@
+ /*navegaçao do site inteiro*/
+
+ header {
+    background-color: #ffffff; /* Fundo branco */
+    border-bottom: 1px solid #ccc; /* Linha fina cinza na parte inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+  nav ul li a:hover {
+    color: green; /* Cor do texto cinza um pouco mais escuro ao passar o mouse */
+}
+
+  /*abaixo disso e o codigo so do index*/
