@@ -43,7 +43,7 @@ nav ul li {
   }
 
   #login {
-    margin-left: 1550px;
+    margin-left: 1400px;
     width: 50px; /* Defina o tamanho original da imagem */
     transition: transform 0.2s; /* Adicione uma transição suave de 0.2 segundos */
   }
@@ -120,3 +120,29 @@ button{
     float: left; 
     margin-left: 5%;
 }
+
+  /*abaixo Creditos*/
+  .titulo_creditos{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 55px;
+  }
+
+  .ref{
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+    /*abaixo roda pe*/
+
+    .footer {
+        padding: 30px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(105, 105, 105);
+        color: white;
+        text-align: center;
+     }

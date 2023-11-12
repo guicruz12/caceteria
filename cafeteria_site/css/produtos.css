@@ -198,10 +198,24 @@
   }
 
   .itens {
+    justify-content: space-between;
     display: flex;
     align-items: center; /* Centraliza verticalmente */
     list-style: none; /* Remove os pontos da lista */
     padding: 0; /* Remove o preenchimento padrão da lista */
+    border-radius: 50%;
+    border-radius: 36px;
+    background: #81a289;
+    box-shadow:  5px 5px 10px #dedfde,
+                 -5px -5px 10px #8baf94;
+  }
+
+  .desc{
+    font-size: 40px;
+  }
+
+  .produtos{
+    margin-top: 40px;
   }
   
 
