@@ -1,0 +1,147 @@
+ /*navegaçao do site inteiro*/
+
+ header {
+    height: 60px;
+    background-color: #ffffff; /* Fundo branco */
+    border-bottom: 1px solid #ccc; /* Linha fina cinza na parte inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.nave{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+  nav ul li a:hover {
+    color: green; /* Cor do texto cinza um pouco mais escuro ao passar o mouse */
+}
+
+.logo{
+    margin-left: 15px;
+    height: 55px;
+    border-radius: 50%;
+    box-shadow:  5px 5px 9px #8f8f8f,
+                 -5px -5px 9px #ffffff;
+  }
+
+  #login {
+    margin-left: 1400px;
+    width: 50px; /* Defina o tamanho original da imagem */
+    transition: transform 0.2s; /* Adicione uma transição suave de 0.2 segundos */
+  }
+  
+  #login:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% quando o mouse passa sobre ela */
+  }
+
+  body{
+    background-color: rgb(190, 235, 225);
+  }
+
+
+  /*abaixo disso e o codigo so do index*/
+
+.banner{
+    margin-top: 30px;
+    text-align: center;
+    display: inline;
+}
+
+#promocao1{
+    height: 450px;
+    width: 1200px;
+    border-radius: 20px;
+    margin-left: 15%;
+    border-radius: 73px;
+background: #e0e0e0;
+box-shadow:  41px 41px 82px #5a5a5a,
+             -41px -41px 82px #ffffff;
+}
+button{
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.seta1{
+    width: 30px;
+    height: 30px;
+}
+
+.seta2{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s;
+}
+
+.botoes{
+    margin-left: 42%;
+    list-style: none;
+    display: flex;
+}
+
+.sobre{
+    font-size: 50px;
+    color: forestgreen;
+}
+
+.texto{
+    font-size: 35px;
+}
+
+.conteudo_da_pagina{
+    background-color: #f5f4f4;
+    border-radius: 20px;
+    padding: 20px;
+    width: 1200px; 
+    height: 300px;
+    float: left; 
+    margin-left: 5%;
+}
+
+  /*abaixo Creditos*/
+  .titulo_creditos{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 55px;
+  }
+
+  .ref{
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+    /*abaixo roda pe*/
+
+    .footer {
+        padding: 30px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(105, 105, 105);
+        color: white;
+        text-align: center;
+     }
